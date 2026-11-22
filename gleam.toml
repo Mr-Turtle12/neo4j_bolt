@@ -1,0 +1,13 @@
+name = "neo4j_bolt"
+version = "0.1.0"
+description = "A synchronous Neo4j Bolt 5.x client for Gleam on Erlang"
+target = "erlang"
+licences = ["Unlicense"]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+mug = ">= 1.0.0 and < 3.0.0"
+envoy = ">= 1.0.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
