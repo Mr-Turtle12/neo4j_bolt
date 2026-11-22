@@ -365,11 +365,6 @@ gleam test
 
 `gleam test` runs deterministic unit tests and does not require a Neo4j server.
 The optional integration smoke programs can be run with
-`gleam run -m bolt_smoke` or `gleam run -m bolt_smoke2`; they require
-`NEO4J_USERNAME`, `NEO4J_PASSWORD`,
-and optionally `NEO4J_HOST`, `NEO4J_PORT`, `NEO4J_DATABASE`, and
-`NEO4J_TIMEOUT_MS`. The smoke programs create and delete test nodes, so use a
-development database.
 
 ## License
 
